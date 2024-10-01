@@ -37,7 +37,6 @@
     cursor: pointer;   
 }
 .service_code{
-    display: flex;
     align-items: center;
     justify-content: center;
     border:#fff 1px solid;
@@ -48,7 +47,6 @@
     
 }
 .copy-write{
-    display: flex;
     font-size: 12px;
     margin-bottom: 10px;
 
