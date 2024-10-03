@@ -41,6 +41,8 @@ export const Footer = () => {
               <li>Contact Us</li>
             </ul>
           </div>
+          
+          </div>
           <div className='service_code'>
             <p>
               service code
@@ -51,7 +53,8 @@ export const Footer = () => {
           </div>
         </div>
 
-      </div>
+      <div/>
+      
 
       </div>
   )
