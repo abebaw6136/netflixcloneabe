@@ -1,0 +1,80 @@
+/*.row_poster {
+    width: 100%;
+    object-fit: contain;
+    max-height: 100px;
+    transition: transform 450ms;
+    margin-right: 10px;
+}
+.row_poster {
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    padding: 20px;
+}
+.row_poster::-webkit-scrollbar {
+    display: none;
+}
+.row_poster:hover {
+    transform: scale(1.08);
+}
+.row_posterLarge {
+    max-height: 250px;
+}
+
+.row_posterLarge:hover {
+    transform: scale(1.08);
+}
+
+.Row{
+    display: flex;
+    margin-left: 20px;
+    color: white;
+}*/
+
+.row {
+    margin-left: 20px;
+  }
+  
+  .row h1 {
+    margin-left: 20px;
+  }
+  
+  .row_posters {
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    padding: 20px;
+  }
+  
+  /*.row_posters::-webkit-scrollbar {
+    display: none;
+  }*/
+  
+  .row_poster {
+    object-fit: contain;
+    width: 100px;
+    margin-right: 5px;
+    transition: transform 450ms;
+  }
+  
+  .row_poster:hover {
+    transform: scale(1.08);
+    opacity: 1;
+  }
+  
+  .row_posterLarge {
+    width: 200px;
+  }
+  
+
+  .row {
+    margin-left: 20px;
+    color: white; /* Set the text color to white */
+    background-color: black; /* Set the background color to black */
+    padding: 10px;
+}
+
+.row h1 {
+    color: white; /* Ensure the title text color is white */
+    font-size: 24px;
+}
