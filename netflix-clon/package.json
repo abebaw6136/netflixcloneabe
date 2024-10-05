@@ -1,4 +1,5 @@
 {
+  "homepage": "https://abebaw1616.github.io/Netflix-Clone-2024",
   "name": "netflix-clon",
   "version": "0.1.0",
   "private": true,
@@ -12,6 +13,7 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "axios": "^1.7.7",
+    "gh-pages": "^6.1.1",
     "movie-trailer": "^3.2.2",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
@@ -21,9 +23,12 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
+    
   },
   "eslintConfig": {
     "extends": [
@@ -47,4 +52,3 @@
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
   }
 }
-
